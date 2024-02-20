@@ -5,8 +5,9 @@
 ## Requirements
 
 **Android:**
-    Termux: git
-    SocksDroid
+
+    - Termux: git
+    - SocksDroid
 
 ## Install
 -------
