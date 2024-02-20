@@ -1,0 +1,33 @@
+{
+	"ProxyRotator": {
+		"Port": "1080"
+	},
+	"Inject": {
+		"Enable": true,
+		"Type": 2,
+		"Port": "8989",
+		"Rules": {
+			"akamai.net:80": [
+				"125.235.36.177"
+			]
+		},
+		"Payload": "",
+		"ServerNameIndication": "",
+		"MeekType": 0,
+		"Timeout": 5,
+		"ShowLog": false
+	},
+	"PsiphonCore": 12,
+	"Psiphon": {
+		"CoreName": "psiphon-tunnel-core",
+		"Tunnel": 1,
+		"Region": "SG",
+		"Protocols": [
+			"FRONTED-MEEK-HTTP-OSSH",
+			"FRONTED-MEEK-OSSH"
+		],
+		"TunnelWorkers": 2,
+		"KuotaDataLimit": 1,
+		"Authorizations": []
+	}
+}
