@@ -13,7 +13,7 @@ Install
 
 **Open termux and run:**
 
-    ```pkg install git && git clone https://github.com/trongtinh7727/Psiphon.git && clear && cd vss && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/vss"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd```
+    pkg install git && git clone https://github.com/trongtinh7727/Psiphon.git && clear && cd vss && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/vss"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
     
 Usage
 -----
