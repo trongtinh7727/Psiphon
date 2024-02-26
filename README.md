@@ -4,7 +4,7 @@
 
 **Android:**
 
-Download [here](https://trongtinh7727-my.sharepoint.com/:f:/g/personal/tinhne_trongtinh7727_onmicrosoft_com/EhA2kJ7nk9BLiStnHO8fXNYBgniadOd-FrHQuvWm1vML2g?e=ZKIhxM "Link download")
+Download termux and SocksDroid [here](https://trongtinh7727-my.sharepoint.com/:f:/g/personal/tinhne_trongtinh7727_onmicrosoft_com/EhA2kJ7nk9BLiStnHO8fXNYBgniadOd-FrHQuvWm1vML2g?e=ZKIhxM "Link download")
 
     - Termux: git
     - SocksDroid
@@ -18,14 +18,15 @@ Download [here](https://trongtinh7727-my.sharepoint.com/:f:/g/personal/tinhne_tr
 ## Configuration & Usage:
 -----
 **Android (Termux)**
-### SocksDroid Setup:
+
+### Step1 - SocksDroid Setup:
     $ DNS Server: 203.113.131.6
     $ App List: Include com.termux.
     $ Enable: Connect on Boot, Pre-app proxy, Bypass Mode.
     $ Activate SocksDroid.
     
-### Termux:
-    $ Execute: tun
+### Step2 Termux:
+    $ Execute: type `tun` and enter
     $ Enjoy!
     
 
